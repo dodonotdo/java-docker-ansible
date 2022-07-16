@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+    stages {
+        stage('build and push') {
+            steps {
+              sh ''' 
+                docker build -t ravimanickavasagam/hello-java  .
+                echo "8428077321" | docker login --username ravimanickavasagam --password-stdin
+                docker push ravimanickavasagam/hello-java
+              '''
+            }
+        }
+        stage('deployment') {
+            steps {
+                sh ''' 
+                    ansible-playbook ansible/main.yml
+                '''
+            }
+        }
+
+    }
+}
