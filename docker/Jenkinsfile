@@ -8,6 +8,7 @@ pipeline {
                 docker build -t ravimanickavasagam/hello-java  .
                 echo "8428077321" | docker login --username ravimanickavasagam --password-stdin
                 docker push ravimanickavasagam/hello-java
+                cd ..
               '''
             }
         }
