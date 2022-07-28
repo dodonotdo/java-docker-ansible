@@ -71,11 +71,10 @@ sonar login
 
 open your browser with http://192.168.0.10:9000
 
-default credentials
+_default credentials_
 
 1. username is **admin**
 2. password is **sonar** 
 
-
-
+it will request to change the default password.
 
