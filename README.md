@@ -39,9 +39,11 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose  version
 ```
 
-_note_
+Avoid permission issue you can switch the **root** user.
 
-Avoid permission issue you can switch the root user.
+```bash
+sudo -i
+```
 
 _copy the source repository to your virtual machine_
 
