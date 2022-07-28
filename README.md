@@ -76,7 +76,7 @@ open your browser with http://192.168.0.10:9000
 _default credentials_
 
 1. username is **admin**
-2. password is **sonar** 
+2. password is **admin** 
 
 it will request to change the default password.
 
