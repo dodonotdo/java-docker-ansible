@@ -69,7 +69,7 @@ sudo docker ps
 
 _sonar login console_
 
-open your browser with **http://192.168.0.10:9000**
+open your browser with http://192.168.0.10:9000
 
 _default credentials_
 
