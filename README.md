@@ -65,6 +65,6 @@ once execute the command you can validate the docker container status. It should
 sudo docker ps 
 ```
 
-**Note** It should return up and running.
+**Note** It should return up and running status
 
 
