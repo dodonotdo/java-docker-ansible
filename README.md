@@ -12,3 +12,21 @@ _dependencies_
 
 all the appliction are should running as a container. so you need to install the docker daemon and docker-compose  binary in your local machine. If your not installed in your execution machine please installit first. please follow below the instaructions.
 
+docker installtion commands
+
+```bash
+echo -e "\e[1;31mdocker installtion"
+sudo apt-get update
+sudo apt install curl -y
+sudo apt-get install ca-certificates curl gnupg lsb-release -y
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+echo \
+    "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list >/dev/null
+
+sudo apt update -y
+sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
+sudo systemctl start docker
+sudo systemctl status docker
+```
