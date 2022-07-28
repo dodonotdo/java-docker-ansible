@@ -80,6 +80,7 @@ _default credentials_
 
 it will request to change the default password.
 
+![image](https://user-images.githubusercontent.com/91359308/181610992-e93f5713-24ac-468b-8a6c-92425090347d.png)
 
 
 
