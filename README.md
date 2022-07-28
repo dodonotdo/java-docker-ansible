@@ -12,6 +12,8 @@ _dependencies_
 
 all the appliction are should running as a container. so you need to install the docker daemon and docker-compose  binary in your local machine. If your not installed in your execution machine please installit first. please follow below the instaructions.
 
+If you are utilising a cloud virtual computer, take note. You must permit all port traffic. If you'd like to restrict access, we can do that later.
+
 _docker installation commands_
 
 ```bash
