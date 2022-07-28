@@ -93,4 +93,11 @@ once execute the command you can validate the docker container status. It should
 
 _jenkins console access_
 
-open your browser with **http://192.168.0.10:8080** Once load the jenkins web pages It should ask somepassword.
+open your browser with http://192.168.0.10:8080 Once load the jenkins web pages It should ask default password.
+
+_how to find the jenkins default password_
+
+```bash
+sudo docker exec -ti jenkins_conatiner_name bash
+cat 
+```
