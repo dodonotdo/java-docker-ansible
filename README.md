@@ -17,7 +17,7 @@ _docker installation commands_
 ```bash
 echo -e "\e[1;31mdocker installation"
 sudo apt-get update
-sudo apt install curl -y
+sudo apt install curl git -y
 sudo apt-get install ca-certificates curl gnupg lsb-release -y
 sudo mkdir -p /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
@@ -37,4 +37,16 @@ echo -e "\e[1;31mdocker-compose installation"
 sudo curl -SL https://github.com/docker/compose/releases/download/v2.7.0/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose  version
+```
+
+copy the source repository to your virtual machine
+
+```bash
+git clone https://github.com/FourTimes/java-docker-ansible.git
+cd java-docker-ansible
+```
+sonar installation
+
+```bash
+
 ```
