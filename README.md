@@ -54,5 +54,16 @@ cd java-docker-ansible
 sonar installation
 
 ```bash
-
+sudo sysctl vm.max_map_count=262144
+cd sonar
+bash sonar-installation.sh
 ```
+
+once execute the command you can validate the docker container status. It should be up and running.
+
+```bash
+sudo docker ps 
+
+# It should return up and running.
+```
+
