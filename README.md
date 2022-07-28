@@ -73,8 +73,9 @@ open your browser with http://192.168.0.10:9000
 
 default credentials
 
-1. username admin
-2. password sonar
+1. username is **admin**
+2. password is **sonar** 
+
 
 
 
