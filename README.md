@@ -67,9 +67,9 @@ sudo docker ps
 
 **Note** It should return, up and running status
 
-sonar login
+_sonar login console_
 
-open your browser with http://192.168.0.10:9000
+open your browser with **http://192.168.0.10:9000**
 
 _default credentials_
 
@@ -88,4 +88,9 @@ cd ..
 cd jenkins
 sudo bash bash.sh
 ```
+
 once execute the command you can validate the docker container status. It should be up and running.
+
+_jenkins console access_
+
+open your browser with **http://192.168.0.10:8080** Once load the jenkins web pages It should ask somepassword.
