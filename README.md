@@ -65,6 +65,16 @@ once execute the command you can validate the docker container status. It should
 sudo docker ps 
 ```
 
-**Note** It should return up and running status
+**Note** It should return, up and running status
+
+sonar login
+
+open your browser with http://192.168.0.10:9000
+
+default credentials
+
+1. username admin
+2. password sonar
+
 
 
