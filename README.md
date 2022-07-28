@@ -39,7 +39,11 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose  version
 ```
 
-copy the source repository to your virtual machine
+_note_
+
+Avoid permission issue you can switch the root user.
+
+_copy the source repository to your virtual machine_
 
 ```bash
 git clone https://github.com/FourTimes/java-docker-ansible.git
