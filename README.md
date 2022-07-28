@@ -78,3 +78,14 @@ _default credentials_
 
 it will request to change the default password.
 
+
+
+
+_jenkins installtion_
+
+```bash
+cd ..
+cd jenkins
+sudo bash bash.sh
+```
+once execute the command you can validate the docker container status. It should be up and running.
